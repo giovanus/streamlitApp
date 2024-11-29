@@ -49,5 +49,8 @@ with col2:
 plt.figure()
 sns.scatterplot(data=iris,x=st.session_state.x_key,y=st.session_state.y_key,hue="espece")
 st.pyplot(plt)
+st.divider()
+st.subheader("Auteur")
+st.text("Giovanus Mauril AMOUSSOUGBO")
 
 
